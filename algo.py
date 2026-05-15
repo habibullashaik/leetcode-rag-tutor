@@ -79,11 +79,7 @@ The AI will generate:
 # GEMINI API
 # =========================================
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-google_api_key = os.getenv("GOOGLE_API_KEY")
+google_api_key = st.secrets["GOOGLE_API_KEY"]
 # =========================================
 # LOAD VECTORSTORE
 # =========================================
