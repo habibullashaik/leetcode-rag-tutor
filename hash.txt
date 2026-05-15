@@ -1,0 +1,50 @@
+HASHMAP PATTERN
+
+What is HashMap?
+
+A hashmap stores data in key-value format.
+It allows very fast lookup operations.
+
+When to Use HashMap:
+- Fast searching needed
+- Complement problems
+- Duplicate detection
+- Frequency counting
+- Pair lookup problems
+
+Real-World Analogy:
+Imagine a phone contacts app.
+You search names instantly instead of checking every contact one by one.
+
+Brute Force Thinking:
+Use nested loops to compare every pair.
+This usually gives O(n²) complexity.
+
+Optimization Thinking:
+Instead of repeatedly searching entire array,
+store previously seen values in hashmap.
+
+HashMap lookup works in O(1) average time.
+
+Common Steps For HashMap Problems:
+1. Create empty hashmap
+2. Traverse array
+3. Calculate required value/complement
+4. Check hashmap
+5. If found:
+   return answer
+6. Otherwise:
+   store current value
+
+Common Problems:
+- Two Sum
+- Contains Duplicate
+- Group Anagrams
+- Subarray Sum Equals K
+
+Complexity:
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
