@@ -1,24 +1,18 @@
-streamlit==1.45.1
+streamlit
 
-langchain==0.3.25
-langchain-core==0.3.60
-langchain-community==0.3.24
-langchain-text-splitters==0.3.8
-langchain-google-genai==2.1.4
-langchain-huggingface==0.2.0
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+langchain-huggingface
 
-google-generativeai==0.8.5
+google-generativeai
 
-sentence-transformers==4.1.0
-transformers==4.51.3
-huggingface-hub==0.31.2
+sentence-transformers
 
-faiss-cpu==1.11.0
+faiss-cpu
 
-pypdf==5.5.0
+pypdf
 
-torch==2.7.0
-
-numpy==2.2.5
-pandas==2.2.3
-python-dotenv==1.1.0
+python-dotenv
